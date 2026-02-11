@@ -3,6 +3,8 @@ import { ref } from 'vue'
 
 const busqueda = ref('')
 
+const emit = defineEmits(['buscar'])
+
 const limpiar = () => {
   busqueda.value = ''
 }
@@ -13,6 +15,7 @@ const buscar = () => {
     return
   }
   console.log(`Buscando ${busqueda.value}`)
+  emit('buscar', `Se buscó: ${busqueda.value}`)
 }
 </script>
 

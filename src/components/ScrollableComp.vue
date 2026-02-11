@@ -1,8 +1,11 @@
 <script setup>
 
+const emit = defineEmits(['scroll'])
+
 const onScroll = (event) => {
   // console.log(event)
   console.log(`'Scroll: ${event.target.scrollTop}px`) // distancia del scroll desde parte superior del elemento
+  emit('scroll', `Scroll: ${event.target.scrollTop}px`)
 }
 </script>
 
