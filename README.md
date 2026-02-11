@@ -36,7 +36,7 @@ Desarrolla una mini-app “Centro de Eventos” con estos módulos:
 ### 6. Registro de eventos (audit log)
 
 - [x] Un panel donde se listen en tiempo real los últimos N eventos (p. ej., ['buscar', 'limpiar', 'click tarjeta 3', 'favorito 2', 'scroll: 145px', ...]).
-- [ ] Botón para limpiar el registro
+- [x] Botón para limpiar el registro
 
 ## Project Setup
 
